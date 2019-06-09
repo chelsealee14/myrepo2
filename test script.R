@@ -7,3 +7,6 @@ plot(y~x)
 #perform regression
 lin.reg <- lm(y~x)
 summary(lin.reg)
+
+#compute pearson's r correlation
+cor(x,y)
